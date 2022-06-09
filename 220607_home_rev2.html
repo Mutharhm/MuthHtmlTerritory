@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Muth home</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      span {
+        background-color: black;
+        padding: 5px;
+        border-radius: 10px;
+
+        color: tomato;
+      }
+      button:active {
+        background-color: tomato;
+      }
+      button:hover {
+        text-decoration: underline;
+      }
+      input:focus {
+        border: 1px solid tomato;
+      }
+      a:visited {
+        color: tomato;
+      }
+      a:hover {
+        color: teal;
+      }
+      form {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      form:focus-within {
+        border-color: seagreen;
+      }
+      p::selection {
+        color: white;
+        background-color: tomato;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button>Hello</button>
+      <input type="text" placeholder="Name" />
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias delectus
+      neque, tempora voluptates, commodi fugiat fugit quidem voluptatum dolore
+      quibusdam iste. Tenetur hic vero delectus odio eius inventore rerum
+      voluptatem.
+    </p>
+    <a href="https://apple.com">Go to Apple</a>
+    <form>
+      <input type="text" name="" id="" />
+      <input type="text" name="" id="" />
+      <input type="text" name="" id="" />
+    </form>
+  </body>
+</html>
