@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Muth home</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+      }
+      @keyframes superSexyCoinFlip {
+        0% {
+          transform: rotatey(0);
+        }
+        50% {
+          border-radius: 0px;
+          border-color: tomato;
+          transform: rotatey(180deg) translatey(100px) scale(2);
+        }
+        100% {
+          transform: rotatey(0);
+        }
+      }
+      img {
+        border: 10px solid black;
+        border-radius: 50%;
+        animation: superSexyCoinFlip 3s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://nomadcoders.co/m.png" alt="" />
+  </body>
+</html>
